@@ -17,3 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('beginner', 'App\Http\Controllers\BeginnerController@index');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/calorie', function () {
+    return view('calorie');
+  });
