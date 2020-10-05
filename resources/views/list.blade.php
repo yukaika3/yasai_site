@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>VegeVejiSearch</title>
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 <body>
   <header>
@@ -21,6 +22,27 @@
      
 
      <h1>野菜の種類</h1>
+
+     <div class="boxs">
+        <img src="/assets/images/asupara.jpg" alt="vege">
+        <p>アスパラガス</p>
+      </div>
+
+      <div class="boxs">
+        <img src="/assets/images/asupara.jpg" alt="vege">
+        <p>a</p>
+      </div>
+
+      <div class="boxs">
+        <img src="/assets/images/burokkori.jpg" alt="vege">
+        <p>ブロッコリー</p>
+      </div>
+
+      <div class="boxs">
+        <img src="/assets/images/daikon.jpg" alt="vege">
+        <p>大根</p>
+      </div>
+
      
      
   </header>

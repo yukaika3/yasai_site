@@ -19,8 +19,12 @@ Route::get('/', function () {
 Route::get('beginner', 'App\Http\Controllers\BeginnerController@index');
 Auth::routes();
 
+Route::get('/colorie', 'colorie\BeginnerController@menu');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/calorie', function () {
     return view('calorie');
   });
+Route::get('/list', function () {
+    return view('list');
+});

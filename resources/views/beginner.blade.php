@@ -15,10 +15,16 @@
             <li><a href="#vege"  title="vege"><i class="fas fa-laptop-code"></i> 野菜一覧</a></li>
             <li><a href="#cal" title="cal"><i class="fas fa-user"></i> カロリー計算</a></li>
             <li><a href="#mail"  title="mail"><i class="far fa-envelope"></i> お問い合わせ</a></li>
-            <li><a href="#mail"  title="mail"><i class="far fa-envelope"></i> お問い合わせ</a></li>
           </ul>
      </div>
 
+
+
+     <a href="list">野菜一覧</a>
+     <a href="calorie"></a>
+     <a href="#">ここをクリックすると飛びます。</a>
+     <a href="#">ここをクリックすると飛びます。</a>
+     <a href="#">ここをクリックすると飛びます。</a>
 
   </header>
 
