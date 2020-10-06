@@ -43,7 +43,15 @@
         <p>大根</p>
       </div>
 
-     
+     <div>
+     @foreach($stocks as $stock)
+        {{$stock->name}} <br>
+         <img src="/image/{{$stock->imgpath}}" alt="" >
+          <br>
+          {{$stock->detail}} <br>
+          @endforeach
+         {{$stocks->links()}} 
+     </div>
      
   </header>
 
