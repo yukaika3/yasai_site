@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +26,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/calorie', function () {
     return view('calorie');
   });
-Route::get('/list', function () {
-    return view('list');
-});
+
+
+Route::get('list', 'App\Http\Controllers\BeginnerController@list');
+
+ 

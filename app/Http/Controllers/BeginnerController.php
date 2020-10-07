@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use Models\Models\Stock;
+use App\Models\Models\Stock;
 
 class BeginnerController extends Controller
 {
@@ -15,8 +15,8 @@ class BeginnerController extends Controller
      }
      public function list()
      {
-         $stocks = Stock::Paginate(4); //Eloquantで検索
-         return view('list',compact('stocks'));
+        $stocks = Stock::Paginate(34);
+        return view('list',compact('stocks')); //追記変更
      }
     public function menu()
     {
