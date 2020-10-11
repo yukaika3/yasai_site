@@ -27,7 +27,7 @@ Route::get('/calorie', function () {
     return view('calorie');
   });
 
-
+Route::get('/calorie', 'App\Http\Controllers\BeginnerController@menu')->middleware('auth');
 Route::get('list', 'App\Http\Controllers\BeginnerController@list');
 
  

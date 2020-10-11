@@ -18,6 +18,7 @@ class CreateStocksTable extends Migration
             $table->timestamps();
             $table->string('name',100);
             $table->string('imgpath','200');
+            
         });
     }
 
