@@ -14,7 +14,7 @@
                       {{$stock->name}} <br>
                      
                       <img src="assets/images/{{$stock->imgpath}}" alt="" class="incart" >
-                      <br>
+                      
                       {{$stock->detail}} <br>
                  @endforeach
                  {{$stocks->links()}} 
