@@ -33,8 +33,20 @@ class LoginController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    //public function __construct()
+    // {
+    //     $this->middleware('guest')->except('logout');
+    // }
+
+    public function authenticate()
     {
-        $this->middleware('guest')->except('logout');
+        $email = 'guestuser@example.com';
+        $password = 'gstusr01';
+
+        if (\Auth::attempt(['email' => $email, 'password' => $password])) {
+            // 認証に成功した
+            return redirect('/');
+        }
+        return back();
     }
 }
