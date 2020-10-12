@@ -30,4 +30,7 @@ Route::get('/calorie', function () {
 Route::get('/calorie', 'App\Http\Controllers\BeginnerController@menu')->middleware('auth');
 Route::get('list', 'App\Http\Controllers\BeginnerController@list');
 
+Route::get('guest', 'App\Http\Controllers\LoginController@authenticate')->name('login.guest'); //guest機能
+
+
  
