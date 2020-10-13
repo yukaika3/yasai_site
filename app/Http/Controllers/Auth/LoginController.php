@@ -33,19 +33,17 @@ class LoginController extends Controller
      *
      * @return void
      */
-    //public function __construct()
-    // {
-    //     $this->middleware('guest')->except('logout');
-    // }
-
-    public function authenticate()
+    public function __construct()
     {
-        $email = 'guestuser@example.com';
-        $password = 'gstusr01';
+        $this->middleware('guest')->except('logout');
+    }
 
-        if (\Auth::attempt(['email' => $email, 'password' => $password])) {
-            // 認証に成功した
-            return redirect('/');
+    public function authenticate(Reqest $repuest)
+    {
+        if(Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])){
+
+            $articles = Article::latest()->paginate(5);
+            return view('articles.index', ['articles' => $articles]);
         }
         return back();
     }
