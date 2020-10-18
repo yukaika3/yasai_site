@@ -1,15 +1,29 @@
 @charset "utf-8";
+html{
+  overflow:auto;
+  }
+  
+body{
+  width: auto;
 
-.boxs{
-  color: brown;
-  width: 15%;
-  height: 20%;
-  border-radius: brown;
-  border: 4px solid;
-  display: inline-block;
 }
-
-.boxs > img{
-  width: 100%;
-  height: 100%;
+.container-fluid{
+  display:block;
+  margin: auto;
+  width: 80%;
+  
+}
+.mx-auto{
+  margin: auto;
+  max-width:80%;
+  
+ 
+}
+.d-flex{
+  display : flex;
+  flex-wrap : wrap;
+}
+.yasai{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
