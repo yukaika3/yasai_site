@@ -26,4 +26,22 @@ body{
 .yasai{
   writing-mode: vertical-lr;
   text-orientation: upright;
+  letter-spacing: 8px;
+  text-align: center;
+  margin: 8px;
+}
+a{
+  color:black;
+}
+a:hover {
+  text-decoration: none;
+  color:gray;
+  }
+img{
+  background: #000;
+}
+
+.yasai:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
