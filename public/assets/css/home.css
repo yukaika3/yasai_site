@@ -1,0 +1,14 @@
+.veg {
+  position: relative;
+  }
+
+.veg p {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  }
+
+.veg img {
+  width: 90%;
+  }
