@@ -14,7 +14,7 @@
      </div>
      <div class="veg">
      <img src="assets/images/vege.jpg" alt="" >
-    <p>aaaaa</p>
+    <p>野菜の検索サイトです</p>
             </div>
         </div>
     </div>
