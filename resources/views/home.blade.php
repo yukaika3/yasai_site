@@ -9,12 +9,14 @@
 </head>
 
 <div class="container">
-
-    <div class="row justify-content-center">
-     </div>
      <div class="veg">
      <img src="assets/images/vege.jpg" alt="" >
-    <p>野菜の検索サイトです</p>
+    <a href=""><i class="bottom" ></i> 簡単ログイン</a>
+    
+    <p>野菜の検索サイトです<br>
+        いつもの生活に彩りを</p>
+    
+    
             </div>
         </div>
     </div>
