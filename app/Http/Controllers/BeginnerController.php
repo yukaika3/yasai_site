@@ -16,7 +16,7 @@ class BeginnerController extends Controller
      public function list()
      {
         $stocks = Stock::Paginate(34);
-        return view('list',compact('stocks')); 
+        return view('list',compact('stocks')); //追記変更
      }
     public function menu()
     {

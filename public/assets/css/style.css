@@ -1,4 +1,7 @@
-@charset "utf-8";
+@font-face {
+  font-family:"Nasu";
+  src: url('../public/fonts/Makinas-4-Square.otf') format("Open Type");}
+
 html{
   overflow:auto;
   }

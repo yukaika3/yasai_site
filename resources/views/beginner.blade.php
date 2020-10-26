@@ -1,33 +1,29 @@
+
+@extends('layouts.app')
+
+@section('content')
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>VegeVejiSearch</title>
+<link href="{{asset('/assets/css/home.css')}}" rel="stylesheet">
 </head>
-<body>
-  <header>
-  <div id="home"></div>
-    <a href=""><img src="img/logo.png"title="home" alt="logo"></a>
 
-    <div class="menu">
-          <ul>
-            <li><a href="#home"  title="home"> <i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#vege"  title="vege"><i class="fas fa-laptop-code"></i> 野菜一覧</a></li>
-            <li><a href="#cal" title="cal"><i class="fas fa-user"></i> カロリー計算</a></li>
-            <li><a href="#mail"  title="mail"><i class="far fa-envelope"></i> お問い合わせ</a></li>
-          </ul>
-     </div>
+<div class="container">
+     <div class="veg">
+     <img src="assets/images/vege.jpg" alt="" >
+    <a href=""><i class="bottom" ></i> 簡単ログイン</a>
+    
+    <p>野菜の検索サイトです<br>
+        いつもの生活に彩りを</p>
+    <div class="VegVeg">
+    <a href=""><i class="bottom" ></i> 登録する</a>
+    </div>
 
-
-
-     <a href="list">野菜一覧</a>
-     <a href="calorie"></a>
-     <a href="#">ここをクリックすると飛びます。</a>
-     <a href="#">ここをクリックすると飛びます。</a>
-     <a href="#">ここをクリックすると飛びます。</a>
-
-  </header>
-
-  <p></p>
+    
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+@endsection
