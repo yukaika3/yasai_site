@@ -1,12 +1,14 @@
 @font-face {
   font-family:"Nasu";
-  src: url('../public/fonts/Makinas-4-Square.otf') format("Open Type");}
+  src: url('assets/fonts/Makinas-4-Square.otf') format("Open Type");}
 
 html{
+  font-family:"Nasu";
   overflow:auto;
   }
   
 body{
+  font-family:"Nasu";
   width: auto;
 
 }

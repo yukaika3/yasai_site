@@ -1,6 +1,7 @@
-.veg {
+.container{
   position: relative;
-  }
+  padding: 0%;
+}
 
 .veg p {
   color: white;
@@ -25,7 +26,7 @@
     margin:0;/*余計な隙間を除く*/
     font-size: 20px;/*文字サイズ*/
     border: solid white 2px; /*線で囲う*/
-    padding: 7px;/*文字と線の間の余白*/
+    padding: 10px;/*文字と線の間の余白*/
     color: white;/*文字色*/
     text-decoration: none;/*下線を表示させない*/
     }
@@ -38,4 +39,5 @@
 
 .veg img {
   width: 90%;
+  filter: blur(3px); 
   }

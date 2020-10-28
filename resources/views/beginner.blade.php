@@ -15,7 +15,7 @@
     <p>野菜の検索サイトです<br>
         いつもの生活に彩りを</p>
     <div class="VegVeg">
-    <a href=""><i class="bottom" ></i> 始める</a>
+    <a href=""><i class="bottom" ></i> 登録する</a>
     </div>
 
     
