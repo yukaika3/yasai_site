@@ -12,11 +12,10 @@
      <div class="veg">
      <img src="assets/images/vege.jpg" alt="" >
     <a href=""><i class="bottom" ></i> 簡単ログイン</a>
-    
     <p>野菜の検索サイトです<br>
         いつもの生活に彩りを</p>
     <div class="VegVeg">
-    <a href=""><i class="bottom" ></i> 登録する</a>
+    <a href=""><i class="bottom" ></i> 始める</a>
     </div>
 
     
