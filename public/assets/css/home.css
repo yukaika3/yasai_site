@@ -1,9 +1,16 @@
+@font-face {
+  font-family:"nana";
+  src: url('/assets/fonts/nana.woff2') format("waff2");
+}
+
+
 .container{
   position: relative;
   padding: 0%;
 }
 
 .veg p {
+  font-family:"nana";
   color: white;
   position: absolute;
   top: 50%;

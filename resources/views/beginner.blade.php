@@ -3,6 +3,7 @@
 
 @section('content')
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html lang="ja">
 <head>
 <link href="{{asset('/assets/css/home.css')}}" rel="stylesheet">

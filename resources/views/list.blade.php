@@ -3,6 +3,7 @@
 
 @section('content')
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html lang="ja">
 <head>
 <title>yasai_site</title>

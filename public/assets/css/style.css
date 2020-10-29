@@ -1,6 +1,7 @@
 @font-face {
   font-family:"Nasu";
-  src: url('assets/fonts/Makinas-4-Square.otf') format("Open Type");}
+  src: url('/assets/fonts/Nasu.woff2') format("waff2");
+}
 
 html{
   font-family:"Nasu";
@@ -29,6 +30,7 @@ body{
   flex-wrap : wrap;
 }
 .yasai{
+  font-family:"Nasu";
   writing-mode: vertical-lr;
   text-orientation: upright;
   letter-spacing: 8px;
