@@ -1,14 +1,19 @@
+@extends('layouts.app')
+
+@section('content')
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html lang="ja">
 <head>
-<link href="{{asset('/assets/css/home.css')}}" rel="stylesheet">
+<link href="{{asset('/assets/css/yasai.css')}}" rel="stylesheet">
 </head>
 
 <div class="container">
+<p>アスパラガス</p>
      <div class="veg">
-     <img src="assets/images/asupara.jpg" alt="" >
-    <p>アスパラガス</p>
+    <p>
+     <img src="assets/images/asupara.jpg" alt="asupara" align="top" >
+    アスパラガス</p>
 
     
     </div>
@@ -20,3 +25,4 @@
 </div>
 </body>
 </html>
+@endsection

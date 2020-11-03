@@ -16,7 +16,7 @@
            <div class="d-flex">
            @foreach($stocks as $stock)
            <div class="yasai">
-           <a href="sample2.html"><img src="assets/images/{{$stock->imgpath}}" alt="" ><br>
+           <a href="{{$stock->imgpath}}"><img src="assets/images/{{$stock->imgpath}}" alt="" ><br>
               {{$stock->name}} 
               {{$stock->detail}} 
             </div>

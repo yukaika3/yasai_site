@@ -32,5 +32,5 @@ Route::get('list', 'App\Http\Controllers\BeginnerController@list');
 
 Route::post('guest', 'App\Http\Controllers\LoginController@authenticate')->name('login.guest'); //guest機能
 
-
+Route::get('asupara', 'App\Http\Controllers\BeginnerController@asupara');
  

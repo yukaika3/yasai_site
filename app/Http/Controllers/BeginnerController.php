@@ -28,4 +28,8 @@ class BeginnerController extends Controller
             return view('/auth/login');
         }
     }
+    public function asupara()
+    {
+        return view('asupara');
+    }
 }
