@@ -1,6 +1,6 @@
 @font-face {
   font-family:"Nasu";
-  src: url('/assets/fonts/Nasu.woff2') format("waff2");
+  src: url('../fonts/Nasu.woff2') format("waff2");
 }
 
 html{
