@@ -14,6 +14,7 @@
     <p>
      <img src="assets/images/asupara.jpg" alt="asupara" align="top" >
     アスパラガス</p>
+    <p>栄養素１</p>
 
     
     </div>
