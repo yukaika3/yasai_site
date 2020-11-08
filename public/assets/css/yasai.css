@@ -5,10 +5,15 @@
 
 }
 .veg{
-  border : solid 1px;
+
+  float: left;
+  width: 50%;
+}
+.Ex{
+  overflow: hidden;
 }
 
 .veg img {
-  width: 50%;
+  width: 100%;
   filter: blur(2px); 
   }
