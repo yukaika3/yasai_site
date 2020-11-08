@@ -12,9 +12,7 @@
 <p>アスパラガス</p>
      <div class="veg">
      <img src="assets/images/asupara.jpg" alt="asupara" align="top" >
-     <p>ア ス パ ラ ガ ス</p>
-     <p>栄養素</p>
-     <p>科</p>
+     
 
     
 
