@@ -32,4 +32,24 @@ class BeginnerController extends Controller
     {
         return view('asupara');
     }
+    public function burokori()
+    {
+        return view('burokori');
+    }  
+    public function daikon()
+    {
+        return view('daikon');
+    }  
+    public function edamame()
+    {
+        return view('edamame');
+    }
+    public function gobou()
+    {
+        return view('gobou');
+    }
+    public function goya()
+    {
+        return view('goya');
+    }
 }

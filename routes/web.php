@@ -33,4 +33,9 @@ Route::get('list', 'App\Http\Controllers\BeginnerController@list');
 Route::post('guest', 'App\Http\Controllers\LoginController@authenticate')->name('login.guest'); //guest機能
 
 Route::get('asupara', 'App\Http\Controllers\BeginnerController@asupara');
+Route::get('burokori', 'App\Http\Controllers\BeginnerController@burokori');
+Route::get('daikon', 'App\Http\Controllers\BeginnerController@daikon');
+Route::get('edamame', 'App\Http\Controllers\BeginnerController@edamame');
+Route::get('gobou', 'App\Http\Controllers\BeginnerController@gobou');
+Route::get('goya', 'App\Http\Controllers\BeginnerController@goya');
  
