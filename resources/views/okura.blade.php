@@ -11,15 +11,15 @@
 <div class="container">
 <p></p>
      <div class="veg">
-     <img src="assets/images/.jpg" alt="" align="top" >
+     <img src="assets/images/okura.jpg" alt="" align="top" >
      </div>
         <div class="Ex">
-            <p>分類：</p>
-            <p>カロリー:(100g)</p>
-            <p>主な栄養素:</p>
+            <p>分類：果菜類</p>
+            <p>カロリー:30cal(100g)</p>
+            <p>主な栄養素:食物繊維、葉酸、カリウム</p>
             <p></p>
-            <p>豆知識：</p>
-            <p>旬：</p>
+            <p>豆知識：オクラの粘り気はこれスト￥てロールを減らす効果がある</p>
+            <p>旬：6~8月</p>
             <p></p>
 
         </div>
