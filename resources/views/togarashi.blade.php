@@ -11,15 +11,15 @@
 <div class="container">
 <p></p>
      <div class="veg">
-     <img src="assets/images/.jpg" alt="" align="top" >
+     <img src="assets/images/togarashi.jpg" alt="" align="top" >
      </div>
         <div class="Ex">
-            <p>分類：</p>
-            <p>カロリー:(100g)</p>
-            <p>主な栄養素:</p>
+            <p>分類：果菜類</p>
+            <p>カロリー:96cal(100g)</p>
+            <p>主な栄養素:βカロテン、ビタミンC、ビタミンE、カプサイシン</p>
             <p></p>
-            <p>豆知識：</p>
-            <p>旬：</p>
+            <p>豆知識：唐辛子はとてもカロリーが高いがいっぱんてきに風味を加える程度なので、唐辛子が大量に含まれている料理を食べなければカロリー過多になる可能性は低い</p>
+            <p>旬：8~10月</p>
             <p></p>
 
         </div>
