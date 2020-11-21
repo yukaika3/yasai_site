@@ -52,4 +52,112 @@ class BeginnerController extends Controller
     {
         return view('goya');
     }
+    public function hakusai()
+    {
+        return view('hakusai');
+    }
+    public function hourensou()
+    {
+        return view('hourensou');
+    }
+    public function kabocha()
+    {
+        return view('kabocha');
+    }
+    public function kabu()
+    {
+        return view('kabu');
+    }
+    public function kaiware()
+    {
+        return view('kaiware');
+    }
+    public function kyabetu()
+    {
+        return view('kyabetu');
+    }
+    public function kyuri()
+    {
+        return view('kyuri');
+    }
+    public function mizuna()
+    {
+        return view('mizuna');
+    }
+    public function nasu()
+    {
+        return view('nasu');
+    }
+    public function negi()
+    {
+        return view('negi');
+    }
+    public function ninjin()
+    {
+        return view('ninjin');
+    }
+    public function okura()
+    {
+        return view('okura');
+    }
+    public function papurika()
+    {
+        return view('papurika');
+    }
+    public function paseri()
+    {
+        return view('paseri');
+    }
+    public function piman()
+    {
+        return view('piman');
+    }
+    public function renkon()
+    {
+        return view('renkon');
+    }
+    public function retasu()
+    {
+        return view('retasu');
+    }
+    public function satoimo()
+    {
+        return view('satoimo');
+    }    
+    public function satumaimo()
+    {
+        return view('satumaimo');
+    }
+    public function serori()
+    {
+        return view('serori');
+    }
+    public function syoga()
+    {
+        return view('syoga');
+    }
+    public function tamanegi()
+    {
+        return view('tamanegi');
+    }
+    public function tingen()
+    {
+        return view('tingen');
+    }
+    public function togarashi()
+    {
+        return view('togarashi');
+    }
+    public function tomato()
+    {
+        return view('tomato');
+    }
+    public function tomorokoshi()
+    {
+        return view('tomorokoshi');
+    }
+    public function zyagaimo()
+    {
+        return view('zyagaimo');
+    }
 }
