@@ -19,7 +19,8 @@ class StockTableSeeder extends Seeder
             'name' => 'アスパラガス',
             'imgpath' => 'asupara.jpg',
             'type' => '2',
-            
+            'url'=>'asupara',
+
         ]);
             DB::table('stocks')->insert([
             'name' => 'ブロッコリー',
