@@ -26,150 +26,194 @@ class StockTableSeeder extends Seeder
             'name' => 'ブロッコリー',
             'imgpath' => 'burokori.jpg',
             'type' => '2',
+            'url'=>'burokori',
         ]);
             DB::table('stocks')->insert([
             'name' => '大根',
             'imgpath' => 'daikon.jpg',
             'type' => '3',
+            'url'=>'daikon',
         ]);
         DB::table('stocks')->insert([
             'name' => '枝豆',
             'imgpath' => 'edamame.jpg',
             'type' => '1',
+            'url'=>'edamame',
         ]);
         DB::table('stocks')->insert([
             'name' => 'ゴボウ',
             'imgpath' => 'gobou.jpg',
             'type' => '3',
+            'url'=>'gobou',
         ]);
         DB::table('stocks')->insert([
             'name' => 'ゴーヤ',
             'imgpath' => 'goya.jpg',
             'type' => '1',
+            'url'=>'goya',
         ]);
         DB::table('stocks')->insert([
             'name' => '白菜',
             'imgpath' => 'hakusai.jpg',
             'type' => '2',
+            'url'=>'hakusai',
         ]);
         DB::table('stocks')->insert([
             'name' => 'ほうれん草',
             'imgpath' => 'houren.jpg',
             'type' => '2',
+            'url'=>'hourensou',
         ]);
         DB::table('stocks')->insert([
             'name' => 'カボチャ',
             'imgpath' => 'kabocha.jpg',
             'type' => '1',
+            'url'=>'kabocha',
         ]);
         DB::table('stocks')->insert([
             'name' => 'カブ',
             'imgpath' => 'kabu.jpg',
             'type' => '3',
+            'url'=>'kabu',
         ]);
         DB::table('stocks')->insert([
             'name' => 'かいわれ大根',
             'imgpath' => 'kaiware.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'kaiware',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'キャベツ',
             'imgpath' => 'kyabetu.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'kyabetu',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'きゅうり',
             'imgpath' => 'kyuri.jpg',
             'type' => '1',
-        ]);DB::table('stocks')->insert([
+            'url'=>'kyuri',
+        ]);
+        DB::table('stocks')->insert([
             'name' => '水菜',
             'imgpath' => 'mizuna.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'mizuna',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'なす',
             'imgpath' => 'nasu.jpg',
             'type' => '1',
+            'url'=>'nasu',
         ]);
         DB::table('stocks')->insert([
             'name' => 'ねぎ',
             'imgpath' => 'negi.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'negi',
+        ]);
+        DB::table('stocks')->insert([
             'name' => '人参',
             'imgpath' => 'ninjin.jpg',
             'type' => '3',
-        ]);DB::table('stocks')->insert([
+            'url'=>'ninjin',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'オクラ',
             'imgpath' => 'okura.jpg',
             'type' => '1',
-        ]);DB::table('stocks')->insert([
+            'url'=>'okura',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'パプリカ',
             'imgpath' => 'papurika.jpg',
             'type' => '1',
+            'url'=>'papurika',
         ]);
 
         DB::table('stocks')->insert([
             'name' => 'パセリ',
             'imgpath' => 'paseri.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'paseri',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'ピーマン',
             'imgpath' => 'piman.jpg',
             'type' => '1',
-        ]);DB::table('stocks')->insert([
+            'url'=>'piman',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'レンコン',
             'imgpath' => 'renkon.jpg',
             'type' => '3',
-        ]);DB::table('stocks')->insert([
+            'url'=>'renkon',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'レタス',
             'imgpath' => 'retasu.jpg',
             'type' => '2',
+            'url'=>'retasu',
         ]);
         DB::table('stocks')->insert([
             'name' => '里芋',
             'imgpath' => 'satoimo.jpg',
             'type' => '3',
-        ]);DB::table('stocks')->insert([
+            'url'=>'satoimo',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'サツマイモ',
             'imgpath' => 'satumaimo.jpg',
             'type' => '3',
-        ]);DB::table('stocks')->insert([
+            'url'=>'satumaimo',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'セロリ',
             'imgpath' => 'serori.jpg',
             'type' => '2',
+            'url'=>'serori',
         ]);
         DB::table('stocks')->insert([
-            'name' => 'シソ',
-            'imgpath' => 'siso.jpg',
-            'type' => '2',
-        ]);DB::table('stocks')->insert([
             'name' => '生姜',
             'imgpath' => 'syoga.jpg',
             'type' => '3',
-        ]);DB::table('stocks')->insert([
+            'url'=>'syoga',
+        ]);
+        DB::table('stocks')->insert([
             'name' => '玉ねぎ',
             'imgpath' => 'tamanegi.jpg',
             'type' => '2',
-        ]);DB::table('stocks')->insert([
+            'url'=>'tamanegi',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'チンゲンサイ',
             'imgpath' => 'tingen.jpg',
             'type' => '2',
+            'url'=>'tingen',
         ]);
         DB::table('stocks')->insert([
             'name' => 'トマト',
             'imgpath' => 'tomato.jpg',
             'type' => '1',
-        ]);DB::table('stocks')->insert([
+            'url'=>'tomato',
+        ]);
+        DB::table('stocks')->insert([
             'name' => '唐辛子',
-            'imgpath' => 'tougarasi.jpg',
+            'imgpath' => 'tougarashi.jpg',
             'type' => '1',
-        ]);DB::table('stocks')->insert([
+            'url'=>'togarashi',
+        ]);
+        DB::table('stocks')->insert([
             'name' => 'とうもろこし',
-            'imgpath' => 'toumorokosi.jpg',
+            'imgpath' => 'toumorokoshi.jpg',
             'type' => '1',
+            'url'=>'tomorokosi',
         ]);
         DB::table('stocks')->insert([
             'name' => 'じゃがいも',
             'imgpath' => 'zyagaimo.jpg',
             'type' => '3',
+            'url'=>'zyagaimo',
         ]);
         
 
