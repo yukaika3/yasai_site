@@ -19,20 +19,20 @@ class StockTableSeeder extends Seeder
             'name' => 'アスパラガス',
             'imgpath' => 'asupara.jpg',
             'type' => '2',
-            'url'=>'asupara',
+            'url'=>'asupara'
 
         ]);
             DB::table('stocks')->insert([
             'name' => 'ブロッコリー',
             'imgpath' => 'burokori.jpg',
             'type' => '2',
-            'url'=>'burokori',
+            'url'=>'burokori'
         ]);
             DB::table('stocks')->insert([
             'name' => '大根',
             'imgpath' => 'daikon.jpg',
             'type' => '3',
-            'url'=>'daikon',
+            'url'=>'daikon'
         ]);
         DB::table('stocks')->insert([
             'name' => '枝豆',
