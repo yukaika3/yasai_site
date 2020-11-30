@@ -17,7 +17,7 @@ class CreateStocksTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name',100);
-            $table->string('imgpath','200');
+            $table->string('imgpath',100);
             $table->type();
             $table->string('url',100);
             
