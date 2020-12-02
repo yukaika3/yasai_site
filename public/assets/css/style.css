@@ -3,11 +3,13 @@
 html{
   
   overflow:auto;
+ 
   }
   
 body{
  
-  width: auto;
+  width: auto; 
+  background: rgb(243, 243, 243);
 
 }
 .container-fluid{
