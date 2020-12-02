@@ -152,7 +152,7 @@ class BeginnerController extends Controller
     {
         return view('tomato');
     }
-    public function tomorokoshi()
+    public function tomoro()
     {
         return view('tomorokoshi');
     }

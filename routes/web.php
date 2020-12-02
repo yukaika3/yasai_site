@@ -62,5 +62,5 @@ Route::get('tamanegi', 'App\Http\Controllers\BeginnerController@tamanegi');
 Route::get('tingen', 'App\Http\Controllers\BeginnerController@tingen');
 Route::get('togarashi', 'App\Http\Controllers\BeginnerController@togarashi');
 Route::get('tomato', 'App\Http\Controllers\BeginnerController@tomato');
-Route::get('tomorokoshi', 'App\Http\Controllers\BeginnerController@tomorokoshi');
+Route::get('tomoro', 'App\Http\Controllers\BeginnerController@tomorokoshi');
 Route::get('zyagaimo', 'App\Http\Controllers\BeginnerController@zyagaimo');
