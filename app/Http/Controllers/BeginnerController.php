@@ -154,7 +154,7 @@ class BeginnerController extends Controller
     }
     public function tomoro()
     {
-        return view('tomorokoshi');
+        return view('tomoro');
     }
     public function zyagaimo()
     {
