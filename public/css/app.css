@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -3128,7 +3129,7 @@ fieldset:disabled a.btn {
 .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #212529;
-  background-color: #6cb2eb;
+  background-color: #38c172;
   border-color: #6cb2eb;
 }
 
@@ -3289,7 +3290,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-  color: #9bc722;
+  color: #a8e296;
   text-decoration: underline;
 }
 
