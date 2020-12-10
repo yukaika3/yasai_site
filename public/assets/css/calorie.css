@@ -1,0 +1,8 @@
+
+.container>img{
+  position: relative;
+  padding: 0%;
+  width: 90%;
+  height: 80%;
+  filter: blur(2px); 
+}

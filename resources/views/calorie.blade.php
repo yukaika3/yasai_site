@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <html lang="ja">
 <head>
-<link href="{{asset('/assets/css/yasai.css')}}" rel="stylesheet">
+<link href="{{asset('/assets/css/calorie.css')}}" rel="stylesheet">
 </head>
-
 <div class="container">
+<img src="assets/images/vegetable.jpg" alt="" align="top" >
 <p></p>
      <div class="veg">
      
