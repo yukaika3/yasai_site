@@ -2157,7 +2157,7 @@ pre code {
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #55a859;
   opacity: 1;
 }
 
@@ -2792,20 +2792,20 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #212529;
-  background-color: #6cb2eb;
+  background-color: #55a859;;
   border-color: #6cb2eb;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #4aa0e6;
+  background-color: #55a859;;
   border-color: #3f9ae5;
 }
 
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #4aa0e6;
+  background-color:#55a859;
   border-color: #3f9ae5;
   box-shadow: 0 0 0 0.2rem rgba(97, 157, 206, 0.5);
 }
@@ -2813,7 +2813,7 @@ fieldset:disabled a.btn {
 .btn-info.disabled,
 .btn-info:disabled {
   color: #212529;
-  background-color: #6cb2eb;
+  background-color: #55a859;;
   border-color: #6cb2eb;
 }
 
@@ -2821,14 +2821,14 @@ fieldset:disabled a.btn {
 .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #3f9ae5;
+  background-color: #55a859;
   border-color: #3495e3;
 }
 
 .btn-info:not(:disabled):not(.disabled):active:focus,
 .btn-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(97, 157, 206, 0.5);
+  box-shadow: 0 0 0 0.2rem #55a859;;
 }
 
 .btn-warning {
@@ -2996,24 +2996,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #3490dc;
+  color: #55a859;;
   border-color: #3490dc;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #3490dc;
+  background-color: #55a859;;
   border-color: #3490dc;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.5);
+  box-shadow: 0 0 0 0.2rem #55a859;;
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #3490dc;
+  color:#55a859;;
   background-color: transparent;
 }
 
@@ -3021,14 +3021,14 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3490dc;
+  background-color: #55a859;;
   border-color: #3490dc;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.5);
+  box-shadow: 0 0 0 0.2rem #55a859;;
 }
 
 .btn-outline-secondary {
@@ -3966,7 +3966,7 @@ input[type=button].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+  box-shadow: 0 0 0 0.2rem #55a859;
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -6963,18 +6963,18 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #2176bd !important;
+  background-color: #21bd50 !important;
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #347555 !important;
 }
 
 a.bg-secondary:hover,
 a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color: #5bbd97 !important;
 }
 
 .bg-success {
@@ -6996,7 +6996,7 @@ a.bg-info:hover,
 a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #3f9ae5 !important;
+  background-color: #3fe584 !important;
 }
 
 .bg-warning {
@@ -7022,7 +7022,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #a1e98c !important;
 }
 
 a.bg-light:hover,
@@ -10695,7 +10695,7 @@ button.bg-dark:focus {
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #1d68a7 !important;
+  color: #1da724 !important;
 }
 
 .text-secondary {
@@ -10704,7 +10704,7 @@ a.text-primary:focus {
 
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #494f54 !important;
+  color: #a6eb9d !important;
 }
 
 .text-success {
@@ -10722,7 +10722,7 @@ a.text-success:focus {
 
 a.text-info:hover,
 a.text-info:focus {
-  color: #298fe2 !important;
+  color: #55a859 !important;
 }
 
 .text-warning {
@@ -10749,7 +10749,7 @@ a.text-danger:focus {
 
 a.text-light:hover,
 a.text-light:focus {
-  color: #cbd3da !important;
+  color: #55a859 !important;
 }
 
 .text-dark {
