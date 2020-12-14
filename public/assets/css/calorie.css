@@ -1,8 +1,24 @@
 
-.container>img{
+.container{
   position: relative;
   padding: 0%;
-  width: 90%;
-  height: 80%;
-  filter: blur(2px); 
 }
+
+.veg p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  margin:0;
+  padding:0;
+  }
+
+
+.veg img {
+  width: 90%;
+  filter: blur(3px); 
+  }

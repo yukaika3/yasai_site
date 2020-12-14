@@ -8,13 +8,16 @@
 <link href="{{asset('/assets/css/calorie.css')}}" rel="stylesheet">
 </head>
 <div class="container">
-<img src="assets/images/vegetable.jpg" alt="" align="top" >
+
+
 <p></p>
      <div class="veg">
-     
+     <img src="assets/images/vegetable.jpg" alt="" align="top" >
+     <p>カロリー計算</p>
      </div>
         <div class="Ex">
- 
+
+        <p>a</p
 
         </div>
 
