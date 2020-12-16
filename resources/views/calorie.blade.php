@@ -17,8 +17,8 @@
      </div>
         <div class="Ex">
 
-        <p>a</p
-
+        <p>あなたに必要な一日のカロリーは？</p
+        <img src="assets/images/sex.jpeg" alt="" align="top" >
         </div>
 
             </div>
