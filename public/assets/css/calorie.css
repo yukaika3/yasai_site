@@ -17,6 +17,14 @@
   padding:0;
   }
 
+.Ex{
+  text-align: center;
+  position: relative;
+  top:20px;
+}
+.Ex img{
+  width: 80px;
+}
 
 .veg img {
   width: 90%;

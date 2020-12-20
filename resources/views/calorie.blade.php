@@ -16,10 +16,18 @@
      <p>カロリー計算</p>
      </div>
         <div class="Ex">
+        <p>あなたに必要な一日のカロリーを抽出します</p>
+        <p>Q.性別</p>
+        <img src="assets/images/sex.jpeg" alt="" align="top" ><br><br>
+        <input type="checkbox" name="riyu" value="1"> 男性<br>
+        <input type="checkbox" name="riyu" value="2"> 女性
 
-        <p>あなたに必要な一日のカロリーは？</p
-        <img src="assets/images/sex.jpeg" alt="" align="top" >
+        <p>Q.身長</p>
+
+        <p>Q.体重</p>
         </div>
+
+     
 
             </div>
         </div>
