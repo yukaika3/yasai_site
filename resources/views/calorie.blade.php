@@ -23,8 +23,10 @@
         <input type="checkbox" name="riyu" value="2"> 女性
 
         <p>Q.身長</p>
+        <input type="text" name="example1"></p>cm
 
         <p>Q.体重</p>
+        <input type="text" name="example1"></p>kg
         </div>
 
      
