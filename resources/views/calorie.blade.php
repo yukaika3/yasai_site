@@ -19,14 +19,14 @@
         <p>あなたに必要な一日のカロリーを抽出します</p>
         <p>Q.性別</p>
         <img src="assets/images/sex.jpeg" alt="" align="top" ><br><br>
-        <input type="checkbox" name="riyu" value="1"> 男性<br>
-        <input type="checkbox" name="riyu" value="2"> 女性
+        <input type="radio" name="riyu" value="1"> 男性<br>
+        <input type="radio" name="riyu" value="2"> 女性
 
         <p>Q.身長</p>
-        <input type="text" name="example1"> cm</p>
+        <input type="text" class="heit"> cm</p>
 
         <p>Q.体重</p>
-        <input type="text" name="example2"> kg</p>
+        <input type="text" class="weight"> kg</p>
         <a href=""><i class="bottom" ></i> 計算する</a>
         </div>
 

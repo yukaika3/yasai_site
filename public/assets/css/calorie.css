@@ -30,3 +30,19 @@
   width: 90%;
   filter: blur(3px); 
   }
+
+input[type=checkbox]:after{ 
+
+  color:green;
+}
+  input[type="text"]{
+    border-color: rgb(17, 17, 17);
+    outline: none;
+    border: 1.5px solid;
+    width: 10%;
+   }
+
+   input[type="text"]:focus{
+    border-color: rgb(64, 136, 73);
+    outline: none;
+   }
