@@ -19,8 +19,11 @@
         <p>あなたに必要な一日のカロリーを抽出します</p>
         <p>Q.性別</p>
         <img src="assets/images/sex.jpeg" alt="" align="top" ><br><br>
-        <input type="radio" name="riyu" value="1"> 男性<br>
-        <input type="radio" name="riyu" value="2"> 女性
+        <input type="radio" id="02-D" name="radio0" checked="checked">
+        <label for="02-D" class="radio1">男性</label>
+        <input type="radio" id="02-E" name="radio0">
+        <label for="02-E" class="radio1">女性</label>
+
 
         <p>Q.身長</p>
         <input type="text" class="heit"> cm</p>
