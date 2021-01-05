@@ -39,6 +39,7 @@ input[type=checkbox]:after{
     outline: none;
     border: 1.5px solid;
     width: 10%;
+    border-radius:10px;
    }
    input[type="text"]:focus{
     outline: none;
