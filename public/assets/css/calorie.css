@@ -7,8 +7,8 @@
 .veg p {
   color: white;
   position: absolute;
-  top: 50%;
-  left: 45%;
+  top: 20%;
+  left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -27,8 +27,10 @@
 }
 
 .veg img {
-  width: 90%;
+  width: 60%;
   filter: blur(3px); 
+  display:block;
+  margin:auto;
   }
 
 input[type=checkbox]:after{ 
@@ -55,7 +57,7 @@ input[type=radio] {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
-  padding: 5px 30px;
+  padding: 2px 25px;
   position: relative;
   width: auto;
 }

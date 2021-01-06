@@ -42,4 +42,6 @@
 .veg img {
   width: 90%;
   filter: blur(3px); 
+  display:block;
+  margin:auto;
   }
